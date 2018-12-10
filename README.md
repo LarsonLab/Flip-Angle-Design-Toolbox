@@ -20,3 +20,7 @@ The MATLAB script DEMO.m provides a demonstration of the toolbox's capabilities.
 This toolbox requires that the following MATLAB toolboxes are installed:
 * Optimization Toolbox
 * Symbolic Math Toolbox 
+
+Technique described in:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5134417/
+https://dx.doi.org/10.1109%2FTMI.2016.2574240

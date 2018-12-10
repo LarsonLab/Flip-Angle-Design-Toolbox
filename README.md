@@ -22,5 +22,5 @@ This toolbox requires that the following MATLAB toolboxes are installed:
 * Symbolic Math Toolbox 
 
 Technique described in:
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5134417/
-https://dx.doi.org/10.1109%2FTMI.2016.2574240
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5134417/
+* https://dx.doi.org/10.1109%2FTMI.2016.2574240

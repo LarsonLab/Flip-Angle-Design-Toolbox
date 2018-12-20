@@ -1,4 +1,4 @@
-function [y, y_true] = generate_data(model, thetas)
+function [y, y_true, x_true] = generate_data(model, thetas)
     %FUNCTION GENERATE_DATA computes simulated trajectories of the model 
     % 
     %   Flip Angle Design Toolbox 
@@ -18,7 +18,8 @@ function [y, y_true] = generate_data(model, thetas)
     end
    
     % compute "true" trajectories of model 
-    y_true = trajectories(thetas, Ad_nom, Bd_nom, C_nom, D_nom, u, model.x0_nom, model.N);
+   
+    [y_true, x_true] = trajectories(thetas, Ad_nom, Bd_nom, C_nom, D_nom, u, model.x0_nom, model.N); 
     
     if strcmp(model.noise_type, 'None')
         
